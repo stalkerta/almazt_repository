@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "603416ce-be47-4715-a2d4-3c9e3199b23f",
+		"name": "VF Garage by Tolga Collection with Responses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/garage/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"plate\":\"34-SO-1988\",\"colour\":\"Black\",\"vehicleType\":\"Car\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"plate\":\"34-BO-1987\",\"colour\":\"Red\",\"vehicleType\":\"Truck\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"plate\":\"34-VO-2018\",\"colour\":\"Blue\",\"vehicleType\":\"Jeep\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"plate\":\"34-HBO-2020\",\"colour\":\"Black\",\"vehicleType\":\"Truck\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/leave",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/leave?ticketNumber=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"leave"
+					],
+					"query": [
+						{
+							"key": "ticketNumber",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"plate\":\"34-LO-2000\",\"colour\":\"White\",\"vehicleType\":\"Car\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/garage/park",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/garage/status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
