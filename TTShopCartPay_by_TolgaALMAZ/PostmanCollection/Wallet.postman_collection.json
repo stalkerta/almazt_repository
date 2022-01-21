@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "974deeb5-8748-4de8-b9bc-90e001f7d39c",
+		"name": "Wallet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8005/wallet/1024",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8005/wallet/1024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8005",
+					"path": [
+						"wallet",
+						"1024"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8005/wallet/1024",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8005/wallet/1024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8005",
+					"path": [
+						"wallet",
+						"1024"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

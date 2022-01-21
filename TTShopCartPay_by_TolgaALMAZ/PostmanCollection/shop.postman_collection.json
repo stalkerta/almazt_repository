@@ -1,0 +1,285 @@
+{
+	"info": {
+		"_postman_id": "1e7da2ef-4966-4e36-ae87-3ae3400fbc6e",
+		"name": "shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8009/shop/cart/1/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"id\":10,\"name\":\"Laptop-1\",\"description\":\"Bilindik bir markanin populer bir laptopu\",\"price\":1500}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/1/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"1",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/item/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"ID\":10,\"NAME\":\"Laptop-1\",\"DESCRIPTION\":\"Bilindik bir markanin populer bir laptopu\",\"PRICE\":1500}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/item/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"item",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/1/remove",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"id\":10,\"name\":\"Laptop-1\",\"description\":\"Bilindik bir markanin populer bir laptopu\",\"price\":1500}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/1/remove",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"1",
+						"remove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/pay/1202",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/pay/1202",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"pay",
+						"1202"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/pay/1/1024",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/pay/1/1024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"pay",
+						"1",
+						"1024"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/pay/1/1202",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/pay/1/1202",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"pay",
+						"1",
+						"1202"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/1/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"id\":13,\"name\":\"Cips\",\"description\":\"Taze Çıtır Cips\",\"price\":5}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/1/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"1",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8009/shop/cart/1/remove",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"id\":10,\"name\":\"Laptop-1\",\"description\":\"Bilindik bir markanin populer bir laptopu\",\"price\":1500}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8009/shop/cart/1/remove",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"shop",
+						"cart",
+						"1",
+						"remove"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
